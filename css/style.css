@@ -4127,3 +4127,13 @@ section {
     justify-content: center;
   }
 }
+
+/* FIX: Prevent any background repeating */
+body, html {
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+section {
+  background-repeat: no-repeat !important;
+}
