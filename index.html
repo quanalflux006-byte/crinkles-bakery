@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crinkles Bakery - Custom cakes, cupcakes, and fresh pastries in Port Harcourt. Order exquisite cakes for all occasions!">
+    <meta name="keywords" content="bakery Port Harcourt, custom cakes, cupcakes, pastries, New GRA, wedding cakes, birthday cakes">
+    <title>Crinkles Bakery | Custom Cakes & Pastries in Port Harcourt</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Crinkles Bakery and Confectionary",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "77 Evo Road, GRA",
+        "addressLocality": "Port Harcourt",
+        "addressRegion": "Rivers State",
+        "addressCountry": "NG"
+      },
+      "telephone": "+2348033395555",
+      "email": "crinklesbakery@gmail.com",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "priceRange": "₦₦"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-birthday-cake"></i>
+                <span>Crinkles Bakery</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/2348033395555?text=Hi%20Crinkles%20Bakery!%20I'd%20like%20to%20order" class="btn btn-order mobile-hide">Order Now</a>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Port Harcourt's Favorite Bakery</span>
+                <h1>Exquisite Custom Cakes & <span class="highlight">Fresh Pastries</span></h1>
+                <p>Handcrafted with love in New GRA. Perfect cakes for weddings, birthdays, and every sweet celebration.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/2348033395555?text=Hi!%20I'd%20like%20to%20order%20a%20custom%20cake" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Order on WhatsApp</span>
+                    </a>
+                    <a href="#menu" class="btn btn-secondary">View Menu</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>72 Hours Custom Orders</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Fresh Daily Bakes</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Same Day Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Menu</span>
+                <h2>Delicious <span class="highlight">Creations</span></h2>
+                <p>From custom cakes to daily fresh pastries, we bake with passion</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Custom Cakes</h3>
+                    <p>Wedding cakes, birthday cakes, themed designs with buttercream or fondant artistry</p>
+                    <span class="price">From ₦12,000</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20a%20custom%20cake" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>Cupcakes</h3>
+                    <p>Beautifully decorated cupcakes perfect for parties, events, and sweet treats</p>
+                    <span class="price">From ₦500/piece</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20cupcakes" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                    <h3>Fresh Bread & Pastries</h3>
+                    <p>Daily baked bread, croissants, meat pies, sausage rolls, and more</p>
+                    <span class="price">From ₦200</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20bread%20and%20pastries" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <h3>Mini Cakes & Treats</h3>
+                    <p>Perfect individual portions, dessert boxes, and sweet gift packages</p>
+                    <span class="price">From ₦1,500</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20mini%20cakes" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Work</span>
+                <h2>Cake <span class="highlight">Gallery</span></h2>
+                <p>Beautiful creations we've made for happy customers</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=600&fit=crop&q=80" alt="Custom Wedding Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Elegant Wedding Cake</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=600&h=600&fit=crop&q=80" alt="Birthday Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Themed Birthday Cake</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=600&h=600&fit=crop&q=80" alt="Cupcakes" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Designer Cupcakes</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=600&h=600&fit=crop&q=80" alt="Chocolate Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Chocolate Delight</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=600&fit=crop&q=80" alt="Buttercream Art" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Buttercream Art</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&h=600&fit=crop&q=80" alt="Fresh Pastries" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Fresh Pastries</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta">
+                <p>Follow us on Instagram for more delicious inspiration!</p>
+                <a href="https://instagram.com/crinklesbakery" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-instagram"></i>
+                    @crinklesbakery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag">About Us</span>
+                    <h2>Port Harcourt's <span class="highlight">Trusted Bakery</span></h2>
+                    <p>Crinkles Bakery and Confectionary has been serving the Port Harcourt community with passion and excellence. What started as a small home bakery has grown into New GRA's favorite spot for custom cakes, fresh pastries, and sweet celebrations.</p>
+                    <p>We take pride in using quality ingredients, creative designs, and personal attention to every order. Whether it's your dream wedding cake or fresh bread for breakfast, we bake it fresh with love.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Quality Ingredients</h4>
+                                <p>Only the finest, freshest ingredients</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Baked with Love</h4>
+                                <p>Every cake tells a story</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <h4>Delivery Available</h4>
+                                <p>We bring sweetness to your door</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556910110-e4c6b6c24e7f?w=600&h=700&fit=crop&q=80" alt="Bakery Interior" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visit Us</span>
+                <h2>Get In <span class="highlight">Touch</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>77 Evo Road, New GRA<br>Port Harcourt, Rivers State</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+2348033395555">0803 339 5555</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/2348033395555">Chat with us</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:crinklesbakery@gmail.com">crinklesbakery@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Monday - Saturday<br>8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://instagram.com/crinklesbakery" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/crinklesbakery" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7299826897897!2d6.9976653!3d4.8156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNDgnNTYuMiJOIDYwwrA1OSc1MS42IkU!5e0!3m2!1sen!2sng!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-birthday-cake"></i> Crinkles Bakery</h3>
+                    <p>Baking happiness, one cake at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 0803 339 5555</p>
+                    <p><i class="fas fa-envelope"></i> crinklesbakery@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 77 Evo Road, New GRA, PH</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crinkles Bakery and Confectionary. All rights reserved. | Website by <a href="https://unotec.netlify.app" target="_blank">Unotech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/2348033395555?text=Hi%20Crinkles%20Bakery!" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+ENDHTMLcat > index.html << 'ENDHTML'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crinkles Bakery - Custom cakes, cupcakes, and fresh pastries in Port Harcourt. Order exquisite cakes for all occasions!">
+    <meta name="keywords" content="bakery Port Harcourt, custom cakes, cupcakes, pastries, New GRA, wedding cakes, birthday cakes">
+    <title>Crinkles Bakery | Custom Cakes & Pastries in Port Harcourt</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Crinkles Bakery and Confectionary",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "77 Evo Road, GRA",
+        "addressLocality": "Port Harcourt",
+        "addressRegion": "Rivers State",
+        "addressCountry": "NG"
+      },
+      "telephone": "+2348033395555",
+      "email": "crinklesbakery@gmail.com",
+      "openingHours": "Mo-Sa 08:00-18:00",
+      "priceRange": "₦₦"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-birthday-cake"></i>
+                <span>Crinkles Bakery</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="https://wa.me/2348033395555?text=Hi%20Crinkles%20Bakery!%20I'd%20like%20to%20order" class="btn btn-order mobile-hide">Order Now</a>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Port Harcourt's Favorite Bakery</span>
+                <h1>Exquisite Custom Cakes & <span class="highlight">Fresh Pastries</span></h1>
+                <p>Handcrafted with love in New GRA. Perfect cakes for weddings, birthdays, and every sweet celebration.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/2348033395555?text=Hi!%20I'd%20like%20to%20order%20a%20custom%20cake" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Order on WhatsApp</span>
+                    </a>
+                    <a href="#menu" class="btn btn-secondary">View Menu</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>72 Hours Custom Orders</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Fresh Daily Bakes</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Same Day Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Menu</span>
+                <h2>Delicious <span class="highlight">Creations</span></h2>
+                <p>From custom cakes to daily fresh pastries, we bake with passion</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Custom Cakes</h3>
+                    <p>Wedding cakes, birthday cakes, themed designs with buttercream or fondant artistry</p>
+                    <span class="price">From ₦12,000</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20a%20custom%20cake" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h3>Cupcakes</h3>
+                    <p>Beautifully decorated cupcakes perfect for parties, events, and sweet treats</p>
+                    <span class="price">From ₦500/piece</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20cupcakes" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                    <h3>Fresh Bread & Pastries</h3>
+                    <p>Daily baked bread, croissants, meat pies, sausage rolls, and more</p>
+                    <span class="price">From ₦200</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20bread%20and%20pastries" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-icon">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <h3>Mini Cakes & Treats</h3>
+                    <p>Perfect individual portions, dessert boxes, and sweet gift packages</p>
+                    <span class="price">From ₦1,500</span>
+                    <a href="https://wa.me/2348033395555?text=I'd%20like%20mini%20cakes" class="menu-link">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Work</span>
+                <h2>Cake <span class="highlight">Gallery</span></h2>
+                <p>Beautiful creations we've made for happy customers</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=600&fit=crop&q=80" alt="Custom Wedding Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Elegant Wedding Cake</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=600&h=600&fit=crop&q=80" alt="Birthday Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Themed Birthday Cake</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?w=600&h=600&fit=crop&q=80" alt="Cupcakes" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Designer Cupcakes</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=600&h=600&fit=crop&q=80" alt="Chocolate Cake" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Chocolate Delight</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=600&fit=crop&q=80" alt="Buttercream Art" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Buttercream Art</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&h=600&fit=crop&q=80" alt="Fresh Pastries" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h4>Fresh Pastries</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta">
+                <p>Follow us on Instagram for more delicious inspiration!</p>
+                <a href="https://instagram.com/crinklesbakery" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-instagram"></i>
+                    @crinklesbakery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag">About Us</span>
+                    <h2>Port Harcourt's <span class="highlight">Trusted Bakery</span></h2>
+                    <p>Crinkles Bakery and Confectionary has been serving the Port Harcourt community with passion and excellence. What started as a small home bakery has grown into New GRA's favorite spot for custom cakes, fresh pastries, and sweet celebrations.</p>
+                    <p>We take pride in using quality ingredients, creative designs, and personal attention to every order. Whether it's your dream wedding cake or fresh bread for breakfast, we bake it fresh with love.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Quality Ingredients</h4>
+                                <p>Only the finest, freshest ingredients</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Baked with Love</h4>
+                                <p>Every cake tells a story</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <h4>Delivery Available</h4>
+                                <p>We bring sweetness to your door</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556910110-e4c6b6c24e7f?w=600&h=700&fit=crop&q=80" alt="Bakery Interior" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visit Us</span>
+                <h2>Get In <span class="highlight">Touch</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>77 Evo Road, New GRA<br>Port Harcourt, Rivers State</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+2348033395555">0803 339 5555</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/2348033395555">Chat with us</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:crinklesbakery@gmail.com">crinklesbakery@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Monday - Saturday<br>8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://instagram.com/crinklesbakery" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/crinklesbakery" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7299826897897!2d6.9976653!3d4.8156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNDgnNTYuMiJOIDYwwrA1OSc1MS42IkU!5e0!3m2!1sen!2sng!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-birthday-cake"></i> Crinkles Bakery</h3>
+                    <p>Baking happiness, one cake at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> 0803 339 5555</p>
+                    <p><i class="fas fa-envelope"></i> crinklesbakery@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 77 Evo Road, New GRA, PH</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crinkles Bakery and Confectionary. All rights reserved. | Website by <a href="https://unotec.netlify.app" target="_blank">Unotech</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/2348033395555?text=Hi%20Crinkles%20Bakery!" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
